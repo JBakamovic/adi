@@ -1,0 +1,56 @@
+- key: "Name"
+  value: "Jusufadis Bakamovic"
+
+- key: "Experience"
+  value: "15+ years"
+
+- key: "Location"
+  value: "Europe, remote"
+
+- key: "Expertise"
+  value:
+    - "System-level programming"
+    - "MySQL/RocksDb/ClickHouse database kernels"
+    - "Performance optimizations, fine-tuning, and bottleneck assessment"
+    - "SIMD vectorization"
+    - "Lock-free algorithms, large-scale concurrency"
+    - "System and custom memory allocators"
+    - "Micro-architectural CPU internals"
+    - "Micro-architectural GPU (NVidia) internals"
+    - "C++, C, Python, clang, gcc, CMake, POSIX, perf, vtune, likwid, fio"
+
+- key: "Few examples of my recent work"
+  value:
+    - "MPMC streaming real-time analytics in RocksDb-based timeseries database"
+    - "O(1) LEB128 compression using CPU-pipeline aware SIMD fine-tuned design achieving 93% of theoretical compute capabilities"
+    - "Distributed gRPC-based observability engine for ClickHouse-based distributed data warehouse system"
+    - "Performance models for LLM inference at the edge using x86-64 CPU compute- and bandwidth-aware design"
+    - "High-performance database kernel cache using custom lock-free data-structures and scalable concurrent key-value store design"
+    - "Set of high-performance custom memory allocators for instrumenting POSIX/C and C++ ..."
+    - "... (over) aligned, (huge) page-sized, mixed-sized allocations with native support for C++ smart-pointers, containers and aligned ptr types"
+    - "Fallible memory allocator design reducing the memory pressure in database kernels by offloading to MMAP'd segements"
+    - "Fair-resource query execution load-balancing algorithm solving the workload memory starvation problem"
+    - "Scalable work-stealing thread-pool design for improving throughput and hiding latencies in IO-bound database workloads"
+    - "Source-code repository context-aware disassembler for compiler codegen verification"
+    - "... https://github.com/JBakamovic/cxxd-vim?tab=readme-ov-file#disassembly"
+
+- key: "Past life"
+  value:
+    - "Deep embedded (bare-metal) to RTOS to embedded Linux and FPGA systems development spanning automotive, semiconductor,"
+    - "... consumer electronics and radio-communications industries"
+
+- key: "Contact"
+  value:
+    - key: "Email"
+      value: "jusufadis.bakamovic@gmail.com"
+      url: "mailto:jusufadis.bakamovic@gmail.com"
+    - key: "GitHub"
+      value: "jbakamovic"
+      url: "https://github.com/JBakamovic"
+    - key: "LinkedIn"
+      value: "Jusufadis Bakamovic"
+      url: "https://www.linkedin.com/in/jbakamovic"
+
+- key: "Hiring"
+  value: 
+    - "Available for short-term to long-term technical leadership, consulting, and software engineering projects"
